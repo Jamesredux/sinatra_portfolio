@@ -1,5 +1,11 @@
 THIS IS NOW AN ATTEMPT to make this a portfolio
 
+working
+
+to do 
+add links 
+change style 
+
 
 Project: Hangman
 Files are a great way to save and reload a game, so we'll give it a shot here.
