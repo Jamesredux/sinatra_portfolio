@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>James's Hangman Game</h1>
+		</div>
+
+		<div id="content">
+			<div id="gallows">
+				<img id="picture" src="/images/<%= @pic %>.jpg" alt="gallows img" style="width:300px;height:300px;"/>
+			</div>
+			<div id="finalmessage">			
+				<% if @message_1 %>
+					<p><%= @message_1 %></p>
+				<% end %>	
+			</div>
+			<div id= "input">
+					<p>Would you like to play again</p>
+					<div id="links"> 
+						<a href="/">PLAY AGAIN</a>
+					</div>	
+			</div>			
+		</div>
+	</div>
+
+</body>
+</html>

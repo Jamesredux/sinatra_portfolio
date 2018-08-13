@@ -1,0 +1,107 @@
+
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+form {
+
+	padding-bottom: 10px;
+
+}
+
+a {
+
+	padding: 10px;
+	background-color: #e8dcdc;
+	border-radius: 10px;	
+}
+
+#container {
+
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#header  {
+
+	background-color: #a8a8a1; 
+	color: #302e2e;
+	text-align: center;
+	border-radius: 10px;
+	text-shadow: 2px 2px #969691;
+
+}
+
+#gallows {
+	
+	width: 440px;
+	float: left;
+}
+
+#feedback {
+
+	width: 440px;
+	float: right;
+	font-size: 1.5em;
+	height: 352px;
+	
+}
+
+#progress {
+
+	margin: 15px;
+	height: 30%;		
+	font-size: 2em;
+	letter-spacing: 5px;
+}
+
+#message {
+
+	padding: 3px;
+	text-decoration: underline;
+	background-color: #a8a8a1;
+	border-radius: 10px;
+		
+}
+
+
+#input {
+
+	clear: both;
+	font-size: 1.5em;
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: #a8a8a1;
+
+}
+
+#content {
+
+	text-align: center;
+	padding: 10px;
+
+}
+
+#finalmessage {
+
+	font-size: 3em;
+
+}
+
+#links {
+	
+	padding-bottom: 15px;
+	
+}
+
+
+
+
+

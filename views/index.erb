@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>James's Hangman Game</h1>
+		</div>
+		<div id="content">
+			<div id="gallows">
+				<img id="picture" src="/images/<%= session[:guess_count] %>.jpg" alt="gallows img" style="width:300px;height:300px;"/>
+			</div>
+			<div id="feedback">		
+				<div id="progress">
+					<p><%= session[:progess] %></p>
+				</div>
+				<div id="message">
+				<% if @message_1 %>
+					<p><%= @message_1 %></p>
+				<% end %>	
+				</div>
+			</div>
+			<div id= "input">
+				<p>Please input your guess. </p>
+				<form action="/guess" method="post">
+					<input type="text" name="guess">
+					<input type="submit">
+				</form>
+			</div>			
+		</div>
+	</div>
+
+</body>
+</html>
