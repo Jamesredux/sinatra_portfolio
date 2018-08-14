@@ -1,13 +1,6 @@
-THIS IS NOW AN ATTEMPT to make this a portfolio
+This is a portfolio of the projects I completed in sinatra for the odin project
 
-working
-
-to do 
-add links 
-change style 
-
-
-Project: Hangman
+1) Project: Hangman
 Files are a great way to save and reload a game, so we'll give it a shot here.
 
 Your Task
