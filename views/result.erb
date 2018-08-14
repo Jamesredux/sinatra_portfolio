@@ -1,6 +1,33 @@
-<p>
-	Your code is...	<br>
-	<div style="text-align: center; font-size:60px;"> <%= @result %>  </div>
-</p>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cypher</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
 
-<a href="/caesar_cypher">New Encryption</a>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Caesar Cypher</h1>
+		</div>
+
+		<div id="content">
+		
+			<div id="finalmessage">			
+				<p>
+					Your code is...	<br>
+						<div style="text-align: center; font-size:60px;"> <%= @result %>  </div>
+				</p>
+			</div>
+			<div id= "input">
+					<p>Would you like to play again</p>
+					<div id="links"> 
+						<a href="/caesar_cypher">New Encryption</a>
+						<a href="/">MENU</a>
+					</div>	
+			</div>			
+		</div>
+	</div>
+
+</body>
+</html>

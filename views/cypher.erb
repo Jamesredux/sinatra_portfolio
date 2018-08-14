@@ -1,20 +1,38 @@
 
-<p >
-	<h2 style="text-align: center;">Please input the text that you would like encoded</h2>
-	<div style="text-align: center;">
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cypher</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1 style="text-align: center;">The Caesar Cypher</h1>
+			<h2 style="text-align: center;">Please input the text that you would like encoded</h2>
+
+		</div>
+
+		<div id="content">
+			<div style="text-align: center;">
 		<% if @message %>
 			<p>ERROR <%= @message %></p>
 		<% end %>	
-	
 		<form  action="/result" method="post">
 			<input type="text" name="string" placeholder="Text to be encrypted" size="35">
 				<p>And the number you would like the code shifted by.</p>	
 			<input type="int" name="shift" placeholder="Shift" size="5">
 			<input type="submit">
 		</form>
-	
-
 	</div>
-
-</p>
-
+		<div id= "input">
+			<div id="links">
+				<a href="/hangman">Hangman</a>
+				<a href="/caesar_cypher">Caesar Cypher</a>
+			</div>	
+				</div>
+			</div>			
+	</div>
+</body>
+</html>
